@@ -99,7 +99,7 @@ $(LIBSIGN): $(LIBSIGN_OBJECTS)
 
 
 LIB_CFLAGS += -Wno-poison-system-directories
-#LIB_CFLAGS += -Wno-format-nonliteral
+LIB_CFLAGS += -Wno-format-nonliteral
 
 BIN_CFLAGS += -Wno-poison-system-directories
 BIN_CFLAGS += -Wno-format-nonliteral
